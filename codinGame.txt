@@ -1,7 +1,6 @@
-***niveau facile****
+***The Descent****
 while (true) {
  
-//declaration de 2 variables initialisées à 0; 
    var max=0;
     
 var indice=0;
@@ -9,17 +8,18 @@ var indice=0;
 for (var i = 0; i < 8; i++) {
         
 var mountainH = parseInt(readline()); 
-//si mountainH est supérieur à notre max
-   if(mountainH >max){
+
+   
+    if(mountainH >max){
        
  max=mountainH;
- //le max aura comme valeur celle de moutainH       
+        
 indice=i;
-      // recupération d'indice du montagne moutainH
+       
  }
     
 }
 
     
-  print(indice); //détruit le montagne d'indice "indice" 
+  print(indice); 
 }

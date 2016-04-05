@@ -20,6 +20,5 @@ indice=i;
     
 }
 
-    
   print(indice); 
 }

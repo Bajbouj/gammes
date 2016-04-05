@@ -1,0 +1,24 @@
+***niveau facile****
+while (true) {
+ 
+   var max=0;
+    
+var indice=0;
+    
+for (var i = 0; i < 8; i++) {
+        
+var mountainH = parseInt(readline()); 
+
+   
+    if(mountainH >max){
+       
+ max=mountainH;
+        
+indice=i;
+       
+ }
+    
+}
+
+    
+  print(indice); 

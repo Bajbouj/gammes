@@ -1,0 +1,49 @@
+var inputs = readline().split(' ');
+
+var lightX = parseInt(inputs[0]);
+var lightY = parseInt(inputs[1]);
+
+var initialTX = parseInt(inputs[2]); 
+
+var initialTY = parseInt(inputs[3]);
+while (true){
+
+ var remainingTurns = parseInt(readline());   
+if (initialTX >lightX ){
+	//si la position x de thor supérieur de la position x de lumière	
+		
+initialTX =initialTX - 1;
+	// la position se recule avec 1			
+print("W");
+
+	}               // thor se déplace vers le Ouest.
+else if ( initialTX < lightX ){
+		//sinon la position x de thor inférieur de la position x de lumière
+initialTX = initialTX + 1;
+		// on augumente la position avec 1			
+print("E");
+
+}  
+
+	                    // thor se déplace vers le Ouest.
+if (initialTY >lightY){
+	
+		//si la position y de thor inférieur de la position y de lumière
+initialTY =initialTY - 1; 
+		// la position se recule avec 1	
+print("N");
+	}	                // thor se déplace vers le Nord
+else if (initialTY < lightY) {
+	
+	//sinon la position y de thor supérieur de la position y de lumière	
+initialTY =initialTY + 1;
+		// on augumente la position avec 1
+print("S");
+}
+	  // thor se déplace vers le Sud
+
+
+	
+
+
+}

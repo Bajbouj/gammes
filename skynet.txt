@@ -1,0 +1,42 @@
+/**
+ * Auto-generated code below aims at helping you parse
+ * the standard input according to the problem statement.
+ **/
+
+
+var road = parseInt(readline());
+ // the length of the road before the gap.
+
+var gap = parseInt(readline()); 
+// the length of the gap.
+
+var platform = parseInt(readline());
+ // the length of the landing platform.
+
+// game loop
+
+while (true) {
+    
+var speed = parseInt(readline()); // the motorbike's speed.
+    
+var coordX = parseInt(readline()); // the position on the road of the motorbike.
+
+    
+   
+
+    if( coordX < (road-1)) {
+	//si le coordonné de moto est inférieur à celle de la piste-1 (avant le gouffre)
+print('SPEED');
+    } //incrémenter speed avec 1
+else if(coordX >  road ){
+	sinon si le coordonné de moto est supérieur à celle de la piste 
+print('SLOW');}
+	
+	// speed incrémente avec 1
+else{	print('JUMP');  // sauter si le coordonné de moto est égale à celle de la piste (sauter au dessus du gouffre)
+}
+
+
+
+
+}
